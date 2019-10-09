@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Nayyar\source\repos\Hardware Encode-Decode>"D:\Program Files\CUDA\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "D:\Program Files\Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"D:\Program Files\CUDA\include" -I"D:\Program Files\CUDA\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Nayyar\source\repos\Hardware Encode-Decode\kernel.cu" 
+C:/Users/Nayyar/source/repos/Hardware Encode-Decode/kernel.cu(12): warning : variable "nDevices" was declared but never referenced
+  kernel.cu
+C:/Users/Nayyar/source/repos/Hardware Encode-Decode/kernel.cu(12): warning C4101: 'nDevices': unreferenced local variable
+  Hardware Encode-Decode.vcxproj -> C:\Users\Nayyar\source\repos\Hardware Encode-Decode\x64\Debug\Hardware Encode-Decode.exe
