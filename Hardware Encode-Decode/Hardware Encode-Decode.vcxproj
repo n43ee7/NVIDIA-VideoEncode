@@ -42,6 +42,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Nayyar\source\repos\Hardware Encode-Decode\Dependencies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Nayyar\source\repos\Hardware Encode-Decode\Dependencies\Lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
