@@ -6,7 +6,7 @@ ______________________________________________________________________
 ### Libraries and prerequisites
 __SDL2__ _(https://www.libsdl.org/download-2.0.php)_ \
 __FFMPEG/libav (NVIDIA Codec)__ _(https://developer.nvidia.com/ffmpeg)_ \
-__CUDA Toolkit__ _https://developer.nvidia.com/cuda-toolkit_ \
+__CUDA Toolkit__ _https://developer.nvidia.com/cuda-toolkit_ 
 
 
-Work Under Progress, hol on boi
+Work Under Progress
