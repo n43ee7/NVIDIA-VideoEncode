@@ -107,8 +107,18 @@ Dependencies/      NVIDIA Video Codec SDK 9.0 headers and wrappers
 ```
 GUI font: Terminus Font 8x16, SIL Open Font License 1.1, (c) 2010 Dimitar Toshkov Zhekov.
 
-## Note to readers all over the world:
-At the time I made this project, I was 18. Ignorant of version control as much as I am today. After making remarkable progress on this project I completely forgot to commit this project and went on with my life till one day my laptop, holding the codebase decided to part ways with me. The HDD was corrupted beyond repair (and use). 
-Recently I decided to recover the contents from my HDD and complete this project once and for all. I appricate the folks who forked off and went on to continue work on it... This was my ultimate inspiration to finally recover the contents of the HDD and finally finish the project. 
-Credits to Claude to help me recover this codebase and also knock down some bugs and add some features that I have been intending to add for a while now :)
+## Note to readers all over the world
+I was 18 when I started this project, and about as clueless with version control as I am today.
+I made good progress, forgot to commit any of it, and moved on with my life. Then one day the
+laptop holding the code decided to part ways with me. The HDD was corrupted beyond repair
+(and beyond use, it now makes a decent paperweight).
+
+Recently I recovered what I could from that drive and decided to finish this project once and
+for all. Thanks to everyone who forked it and kept working on it. You are the reason I went
+digging through a dead hard drive.
+
+Credit to Claude for helping me recover the code, squash some bugs and finally add the features
+I had been meaning to add for years :)
+
+Lesson learned: commit early, commit often.
 
