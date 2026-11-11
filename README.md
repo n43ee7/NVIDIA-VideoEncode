@@ -2,6 +2,10 @@
 Raw data to H.264 and H.264 back to raw, with the whole pixel path on the GPU.
 ______________________________________________________________________
 
+| `-gui -enc` rgb24 QCIF clip | `-gui -enc` 1080p I420 clip |
+|:---:|:---:|
+| <img src="images/1.png" width="420"> | <img src="images/2.png" width="420"> |
+
 ## Design
 ```
 encode  file -> pinned buffer -> [hex parse] -> to NV12 kernel -> NVENC surface -> H.264
