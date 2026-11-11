@@ -2,10 +2,6 @@
 Raw data to H.264 and H.264 back to raw, with the whole pixel path on the GPU.
 ______________________________________________________________________
 
-## Note to readers all over the world:
-At the time I made this project, I was 18. Ignorant of version control as much as I am today. After making remarkable progress on this project I completely forgot to commit this project and went on to focus with my life till one day my laptop, holding the codebase decided to part ways with me. The HDD was corrupted beyond repair (and use). 
-Recently I decided to recover the contents from my HDD and complete this project once and for all. I appricate the folks who forked off and went on to continue work on it... This was my ultimate inspiration to finally recover the contents of the HDD and finally finish the project. Special thanks to Claude to help me knock down some bugs and add some features that I have been intending to add for a while now :)
-
 ## Design
 ```
 encode  file -> pinned buffer -> [hex parse] -> to NV12 kernel -> NVENC surface -> H.264
@@ -106,3 +102,9 @@ Dependencies/      NVIDIA Video Codec SDK 9.0 headers and wrappers
 ./runme -benchmark -cluster -i examples/orbit_176x144.rgb -o orbit.h264
 ```
 GUI font: Terminus Font 8x16, SIL Open Font License 1.1, (c) 2010 Dimitar Toshkov Zhekov.
+
+## Note to readers all over the world:
+At the time I made this project, I was 18. Ignorant of version control as much as I am today. After making remarkable progress on this project I completely forgot to commit this project and went on with my life till one day my laptop, holding the codebase decided to part ways with me. The HDD was corrupted beyond repair (and use). 
+Recently I decided to recover the contents from my HDD and complete this project once and for all. I appricate the folks who forked off and went on to continue work on it... This was my ultimate inspiration to finally recover the contents of the HDD and finally finish the project. 
+Special thanks to Claude to help me knock down some bugs and add some features that I have been intending to add for a while now :)
+
